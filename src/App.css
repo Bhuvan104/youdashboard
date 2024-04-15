@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.navsection{
+    border:1px solid red;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: orangered;
+    align-items: center;
+    color: white;
+    padding:0 20px;
+    font-size: medium;
+}
+.sideBarSection{
+    width: 100%;
+    max-width: 15%;
+    height: 95vh;
+    padding-top: 10px;
+   
+    /* display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    color: white;
+    padding:0 20px;
+    font-size: medium; */
+}
+.sideBarSection ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: medium;
+    cursor: pointer;
+
+
+}
+
+.sideBar{
+    width: 200px;
+    background-color: lightgray;
+}
+
+
+.collectionSection{
+    display: flex;    
+
+}
+.authForm{
+    width: 100%;
+    max-width: 50%;
+    margin-top: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 10px ;
+}
+
+.loginSection{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.registerSection{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.authForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+
+}
+
+.authForm label{
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+}
+
+
+.firmSection{
+    border: 1px solid red;
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tableForm{
+    width: 100%;
+    max-width: 50%;
+    margin-top: -120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 10px ;
+}
+
+.tableForm input{
+    width: 100%;
+    max-width: 55%;
+    height: 1.4rem;
+
+}
+
+
+.tableForm label{
+    width: 100%;
+    max-width: 55%;
+    font-weight: 400;
+}
+
+.checkInp{
+    
+    width:100%;
+    max-width: 85%;
+    margin-left: 150px;
+    
+
+}
+
+.inputsContainer{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+/* .checkboxContainer{
+    border:1px solid rgb(55, 25, 25);
+} */
+/* .checkboxContainer label{
+    border:3px solid blue;
+} */
