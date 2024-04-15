@@ -1,1 +1,2 @@
-export const API_Path="http://localhost:4000"
+export const API_Path="mongodb+srv://root:<password>@livecluster.rauzgc6.mongodb.net/?retryWrites=true&w=majority&appName=livecluster"
+// mongodb+srv://root:<password>@livecluster.rauzgc6.mongodb.net/?retryWrites=true&w=majority&appName=livecluster
